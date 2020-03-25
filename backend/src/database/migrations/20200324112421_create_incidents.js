@@ -5,7 +5,7 @@ exports.up = function(knex) {
 
     table.string('title').notNullable();
     table.string('description').notNullable();
-    table.decimal('valor').notNullable();
+    table.decimal('value').notNullable();
 
     // Relacionamento de um cadastro a uma ong
     table.string('ong_id').notNullable();
